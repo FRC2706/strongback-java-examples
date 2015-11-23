@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.strongback.example.robot;
+package org.frc2706.example.robot;
 
 import org.fest.assertions.Delta;
 import org.junit.Before;
@@ -62,6 +62,7 @@ public class TimedDriveCommandTest {
         tester.step(START_TIME_MS + 2100);
         assertThat(leftMotor.getSpeed()).isEqualTo(0.0, TOLERANCE);
         assertThat(rightMotor.getSpeed()).isEqualTo(0.0, TOLERANCE);
+        
     }
 
     @Test

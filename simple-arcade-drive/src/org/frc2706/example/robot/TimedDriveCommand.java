@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.strongback.example.robot;
+package org.frc2706.example.robot;
 
 import org.strongback.command.Command;
 import org.strongback.drive.TankDrive;

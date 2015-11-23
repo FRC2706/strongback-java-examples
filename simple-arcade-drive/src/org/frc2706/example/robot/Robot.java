@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.strongback.example.robot;
+package org.frc2706.example.robot;
 
 import org.strongback.Strongback;
 import org.strongback.components.Motor;
